@@ -1,0 +1,65 @@
+[
+	{
+		"id": "light-slim",
+		"skinTone": "light",
+		"bodyType": "slim",
+		"label": "Light skin · Slim",
+		"image": "/images/avatar-light-slim.png"
+	},
+	{
+		"id": "light-average",
+		"skinTone": "light",
+		"bodyType": "average",
+		"label": "Light skin · Average",
+		"image": "/images/avatar-light-average.png"
+	},
+	{
+		"id": "light-curvy",
+		"skinTone": "light",
+		"bodyType": "curvy",
+		"label": "Light skin · Curvy",
+		"image": "/images/avatar-light-curvy.png"
+	},
+	{
+		"id": "medium-slim",
+		"skinTone": "medium",
+		"bodyType": "slim",
+		"label": "Medium skin · Slim",
+		"image": "/images/avatar-medium-slim.png"
+	},
+	{
+		"id": "medium-average",
+		"skinTone": "medium",
+		"bodyType": "average",
+		"label": "Medium skin · Average",
+		"image": "/images/avatar-medium-average.png"
+	},
+	{
+		"id": "medium-curvy",
+		"skinTone": "medium",
+		"bodyType": "curvy",
+		"label": "Medium skin · Curvy",
+		"image": "/images/avatar-medium-curvy.png"
+	},
+	{
+		"id": "dark-slim",
+		"skinTone": "dark",
+		"bodyType": "slim",
+		"label": "Dark skin · Slim",
+		"image": "/images/avatar-dark-slim.png"
+	},
+	{
+		"id": "dark-average",
+		"skinTone": "dark",
+		"bodyType": "average",
+		"label": "Dark skin · Average",
+		"image": "/images/avatar-dark-average.png"
+	},
+	{
+		"id": "dark-curvy",
+		"skinTone": "dark",
+		"bodyType": "curvy",
+		"label": "Dark skin · Curvy",
+		"image": "/images/avatar-dark-curvy.png"
+	}
+]

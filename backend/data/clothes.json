@@ -1,0 +1,90 @@
+[
+	{
+		"id": "m-blazer-classic",
+		"name": "Classic Linen Blazer",
+		"gender": "men",
+		"category": "outerwear",
+		"price": 179,
+		"image": "/images/men-blazer-classic.png",
+		"bodyTypes": ["average", "slim"],
+		"skinTones": ["light", "medium"],
+		"tags": ["formal", "evening"]
+	},
+	{
+		"id": "m-knit-earth",
+		"name": "Earth Tone Knit Sweater",
+		"gender": "men",
+		"category": "tops",
+		"price": 98,
+		"image": "/images/men-knit-earth.png",
+		"bodyTypes": ["average", "curvy"],
+		"skinTones": ["medium", "dark"],
+		"tags": ["casual", "daywear"]
+	},
+	{
+		"id": "m-trouser-tailored",
+		"name": "Tailored Chino Trouser",
+		"gender": "men",
+		"category": "bottoms",
+		"price": 120,
+		"image": "/images/men-trouser-tailored.png",
+		"bodyTypes": ["slim", "average"],
+		"skinTones": ["light", "medium", "dark"],
+		"tags": ["casual", "daywear"]
+	},
+	{
+		"id": "w-dress-wrap",
+		"name": "Wrap Midi Dress",
+		"gender": "women",
+		"category": "dresses",
+		"price": 165,
+		"image": "/images/women-dress-wrap.png",
+		"bodyTypes": ["average", "curvy"],
+		"skinTones": ["light", "medium"],
+		"tags": ["formal", "evening"]
+	},
+	{
+		"id": "w-blouse-silk",
+		"name": "Burnt Orange Silk Blouse",
+		"gender": "women",
+		"category": "tops",
+		"price": 110,
+		"image": "/images/women-blouse-silk.png",
+		"bodyTypes": ["slim", "average"],
+		"skinTones": ["medium", "dark"],
+		"tags": ["casual", "daywear", "workwear"]
+	},
+	{
+		"id": "w-trouser-wide",
+		"name": "High-Waist Wide Leg Trouser",
+		"gender": "women",
+		"category": "bottoms",
+		"price": 130,
+		"image": "/images/women-trouser-wide.png",
+		"bodyTypes": ["average", "curvy"],
+		"skinTones": ["light", "medium", "dark"],
+		"tags": ["formal", "evening"]
+	},
+	{
+		"id": "u-jacket-bomber",
+		"name": "Utility Canvas Bomber",
+		"gender": "unisex",
+		"category": "outerwear",
+		"price": 150,
+		"image": "/images/unisex-bomber.png",
+		"bodyTypes": ["slim", "average", "curvy"],
+		"skinTones": ["light", "medium", "dark"],
+		"tags": ["casual", "daywear"]
+	},
+	{
+		"id": "u-tee-relaxed",
+		"name": "Relaxed Fit Tee",
+		"gender": "unisex",
+		"category": "tops",
+		"price": 45,
+		"image": "/images/unisex-tee.png",
+		"bodyTypes": ["slim", "average", "curvy"],
+		"skinTones": ["light", "medium", "dark"],
+		"tags": ["casual", "daywear"]
+	}
+]

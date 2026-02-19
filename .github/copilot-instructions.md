@@ -1,0 +1,17 @@
+# SmartFit AI Assistant Guide
+
+- **Architecture**: Two folders; React SPA in [smart-fit](smart-fit) and prototype Express API in [backend](backend). The frontend is the primary focus and routes across Home, Men, Women, Try-On, Cart, Checkout, and Payment views.
+- **Frontend entry**: CRA default shell in [smart-fit/src/App.js](smart-fit/src/App.js); build out navigation and routing there. Seed pages/components live in [smart-fit/src/pages](smart-fit/src/pages) and [smart-fit/src/components](smart-fit/src/components), currently empty placeholders for you to implement.
+- **Data model**: Nine avatar variants (3 skin tones × 3 body types) and clothing items split by gender. Store placeholder definitions in [smart-fit/src/data/avatars.js](smart-fit/src/data/avatars.js) and [smart-fit/src/data/clothes.js](smart-fit/src/data/clothes.js) until backend endpoints are ready.
+- **Virtual try-on flow**: In the Try-On page, collect skin tone and body type in UserForm, map to an avatar asset, and show outfit preview plus compatibility percentage. Keep avatar selection deterministic and rule-based (no ML assumptions).
+- **Rule engine**: Implement simple additive scoring (e.g., +40 for matching body type, +30 for skin tone, +30 for category relevance) and surface the final score via a progress bar component. Document the rule weights alongside the logic for transparency.
+- **UI guidelines**: Neutral palette (beige/soft gray base) with brown/burnt orange accents. Favor clean layouts, ample spacing, fashion-inspired typography. Components should accept props for theming so future skins can reuse them.
+- **Shopping journey**: Support catalog browsing, add-to-cart, cart summary, checkout form, and dummy payment confirmation. Persist cart state in React (context or lifted state) since no real backend storage exists yet.
+- **Backend expectations**: [backend/app.js](backend/app.js) is empty; scaffold Express app with CORS, static JSON reads from [backend/data](backend/data), and routes defined in [backend/routes](backend/routes). Prototype endpoints should return the same structures as the frontend data files.
+- **Running locally**: `npm install && npm start` inside smart-fit (port 3000). For the API, run `npm install` then `node app.js` inside backend (choose a port like 5000 and expose via `/api`). Keep CORS open for localhost during development.
+- **Testing**: CRA ships with React Testing Library; add focused tests for rule-calculation helpers and cart reducers. Snapshot testing is less useful until UI solidifies.
+- **Assets**: Use easily swappable placeholders under [smart-fit/public/images](smart-fit/public/images). Name avatar files using the convention avatar-{skinTone}-{bodyType}.png to simplify mapping logic.
+- **Authentication**: Login is a mock (name + email only). Do not introduce password handling or persistent auth; store form values in state and gate checkout steps accordingly.
+- **Scalability cues**: Organize future service calls under a `services/` folder, wrap fetch calls, and prepare for swapping static data with REST responses without touching component logic.
+- **Future extensions**: Leave hooks for real payments and database integration (e.g., placeholder service methods). Add TODO comments sparingly where real integrations will slot in.
+- **Documentation**: Update README once the CRA boilerplate is replaced. Keep architecture notes close to code (e.g., comment headers on rule modules) so future agents inherit context quickly.
