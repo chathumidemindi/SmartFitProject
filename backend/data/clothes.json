@@ -2,68 +2,68 @@
 	{
 		"id": "m-blazer-classic",
 		"name": "Classic Linen Blazer",
-		"gender": "men",
+		"gender": "male",
 		"category": "outerwear",
 		"price": 179,
 		"image": "/images/men-blazer-classic.png",
-		"bodyTypes": ["average", "slim"],
-		"skinTones": ["light", "medium"],
-		"tags": ["formal", "evening"]
+		"bodyTypesSuitable": ["trapezoid", "rectangle", "invertedTriangle"],
+		"recommendedSkinTones": ["fair", "light", "medium"],
+		"styleTags": ["formal", "evening"]
 	},
 	{
 		"id": "m-knit-earth",
 		"name": "Earth Tone Knit Sweater",
-		"gender": "men",
+		"gender": "male",
 		"category": "tops",
 		"price": 98,
 		"image": "/images/men-knit-earth.png",
-		"bodyTypes": ["average", "curvy"],
-		"skinTones": ["medium", "dark"],
-		"tags": ["casual", "daywear"]
+		"bodyTypesSuitable": ["trapezoid", "rectangle", "oval", "triangle"],
+		"recommendedSkinTones": ["medium", "tan", "deep", "dark"],
+		"styleTags": ["casual", "daywear"]
 	},
 	{
 		"id": "m-trouser-tailored",
 		"name": "Tailored Chino Trouser",
-		"gender": "men",
+		"gender": "male",
 		"category": "bottoms",
 		"price": 120,
 		"image": "/images/men-trouser-tailored.png",
-		"bodyTypes": ["slim", "average"],
-		"skinTones": ["light", "medium", "dark"],
-		"tags": ["casual", "daywear"]
+		"bodyTypesSuitable": ["trapezoid", "rectangle"],
+		"recommendedSkinTones": ["fair", "light", "medium", "tan", "deep", "dark"],
+		"styleTags": ["casual", "daywear"]
 	},
 	{
 		"id": "w-dress-wrap",
 		"name": "Wrap Midi Dress",
-		"gender": "women",
+		"gender": "female",
 		"category": "dresses",
 		"price": 165,
 		"image": "/images/women-dress-wrap.png",
-		"bodyTypes": ["average", "curvy"],
-		"skinTones": ["light", "medium"],
-		"tags": ["formal", "evening"]
+		"bodyTypesSuitable": ["hourglass", "pear", "apple"],
+		"recommendedSkinTones": ["fair", "light", "medium"],
+		"styleTags": ["formal", "evening"]
 	},
 	{
 		"id": "w-blouse-silk",
 		"name": "Burnt Orange Silk Blouse",
-		"gender": "women",
+		"gender": "female",
 		"category": "tops",
 		"price": 110,
 		"image": "/images/women-blouse-silk.png",
-		"bodyTypes": ["slim", "average"],
-		"skinTones": ["medium", "dark"],
-		"tags": ["casual", "daywear", "workwear"]
+		"bodyTypesSuitable": ["hourglass", "rectangle", "invertedTriangle"],
+		"recommendedSkinTones": ["medium", "tan", "deep", "dark"],
+		"styleTags": ["casual", "daywear", "workwear"]
 	},
 	{
 		"id": "w-trouser-wide",
 		"name": "High-Waist Wide Leg Trouser",
-		"gender": "women",
+		"gender": "female",
 		"category": "bottoms",
 		"price": 130,
 		"image": "/images/women-trouser-wide.png",
-		"bodyTypes": ["average", "curvy"],
-		"skinTones": ["light", "medium", "dark"],
-		"tags": ["formal", "evening"]
+		"bodyTypesSuitable": ["hourglass", "pear", "apple"],
+		"recommendedSkinTones": ["fair", "light", "medium", "tan", "deep", "dark"],
+		"styleTags": ["formal", "evening"]
 	},
 	{
 		"id": "u-jacket-bomber",
@@ -72,9 +72,9 @@
 		"category": "outerwear",
 		"price": 150,
 		"image": "/images/unisex-bomber.png",
-		"bodyTypes": ["slim", "average", "curvy"],
-		"skinTones": ["light", "medium", "dark"],
-		"tags": ["casual", "daywear"]
+		"bodyTypesSuitable": ["trapezoid", "rectangle", "hourglass", "pear", "invertedTriangle"],
+		"recommendedSkinTones": ["fair", "light", "medium", "tan", "deep", "dark"],
+		"styleTags": ["casual", "daywear"]
 	},
 	{
 		"id": "u-tee-relaxed",
@@ -83,8 +83,8 @@
 		"category": "tops",
 		"price": 45,
 		"image": "/images/unisex-tee.png",
-		"bodyTypes": ["slim", "average", "curvy"],
-		"skinTones": ["light", "medium", "dark"],
-		"tags": ["casual", "daywear"]
+		"bodyTypesSuitable": ["trapezoid", "rectangle", "oval", "triangle", "hourglass", "pear", "apple", "invertedTriangle"],
+		"recommendedSkinTones": ["fair", "light", "medium", "tan", "deep", "dark"],
+		"styleTags": ["casual", "daywear"]
 	}
 ]
